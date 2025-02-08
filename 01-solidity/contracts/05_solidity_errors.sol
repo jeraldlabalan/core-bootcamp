@@ -5,8 +5,8 @@ import "hardhat/console.sol";
 error YouAreNotError();
 
 contract SolidityErrors {
-    address admin;
-    uint256 balance = 0;
+    address public admin;
+    uint256 private balance = 0;
 
     constructor(uint256 initialBalance, address allowedAddress) {
         balance = initialBalance;

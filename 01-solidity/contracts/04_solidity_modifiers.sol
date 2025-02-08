@@ -3,8 +3,8 @@ pragma solidity ^0.8.9;
 import "hardhat/console.sol";
 
 contract SolidityModifiers {
-    address admin;
-    uint256 balance = 0;
+    address public admin;
+    uint256 private balance = 0;
 
     constructor(uint256 initialBalance, address allowedAddress) {
         balance = initialBalance;

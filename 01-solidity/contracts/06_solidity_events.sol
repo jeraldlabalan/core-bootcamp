@@ -5,7 +5,7 @@ import "hardhat/console.sol";
 contract SolidityEvents {
     event BalanceAdded(address sender);
 
-    uint256 balance = 0;
+    uint256 private balance = 0;
 
     constructor(uint256 initialBalance) {
         balance = initialBalance;

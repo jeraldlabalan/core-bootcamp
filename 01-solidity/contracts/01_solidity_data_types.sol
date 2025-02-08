@@ -3,9 +3,9 @@ pragma solidity ^0.8.9;
 import "hardhat/console.sol";
 
 contract SolidityDataTypes {
-    uint256 balance;
-    address owner;
-    mapping(string => uint256) accounts;
+    uint256 public balance;
+    address private owner;
+    mapping(string => uint256) private accounts;
 
     constructor() {
         balance = 10000;
