@@ -53,3 +53,15 @@ Here are some VS Code Extensions that could help you have a better development e
 
 ## Contribute
 For change request, please clone and submit pull-request. Or e-mail at mark@theblokc.com
+
+## 02-hardhat ## Transaction Hash
+0x0738d1bb8defe389056ce312dad2e6e4c957bd0158ff3195b804c160551dcced
+
+## 03-erc20 ## Transaction Hash
+0x6d3515bcCafCb95bAE3b50E059De46E10BD37333
+
+## 04-erc721 ## Transaction Hash
+0x115243Be5c54fBe2F2EB7aa68e642000B35a0864
+
+## 05-submit ## Transaction Hash
+0x86940159e52f9c62c25d9e410a5de0f03eb433d9c01c0215be62253cf0855516
