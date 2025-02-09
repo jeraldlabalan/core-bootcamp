@@ -1,7 +1,9 @@
 import path from 'path'
-require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
+require('dotenv').config({ path: path.resolve('.env') });
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
 
 const { PRIVATE_KEY } = process.env;
 
