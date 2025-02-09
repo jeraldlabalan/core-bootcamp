@@ -12,4 +12,4 @@ npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.ts
 ```
 ## Transaction Hash
-0xD4a8729074095d0885AcC55f74be0AA24fe6e951
+0x6d3515bcCafCb95bAE3b50E059De46E10BD37333
