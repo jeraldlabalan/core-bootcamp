@@ -11,3 +11,5 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.ts
 ```
+## Transaction Hash
+0x115243Be5c54fBe2F2EB7aa68e642000B35a0864
